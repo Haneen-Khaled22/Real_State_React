@@ -3,9 +3,7 @@ import { Box, Typography, Grid, IconButton, Link } from "@mui/material";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import {
   Facebook,
-  Instagram,
-  Twitter,
-  LinkedIn,
+  
   MailOutline,
   Phone,
 } from "@mui/icons-material";
@@ -59,7 +57,7 @@ export default function ContactUs() {
             <Box display="flex" alignItems="center" gap={2}>
               <Phone sx={{ color: "rgba(2, 19, 26, 0.73)" }} />
               <Link
-                href="https://wa.me/0522269405"
+                href="https://wa.me/+9710522269405"
                 color="rgba(2, 19, 26, 0.73)" // You can use "primary", "secondary", or a custom color
                 underline="hover"
                 fontWeight="bold"
@@ -100,7 +98,7 @@ export default function ContactUs() {
                   sx={{ color: "rgba(6, 64, 126, 0.73)", fontSize: "25px" }}
                 />
               </IconButton>
-              <IconButton href="https://wa.me/0522269405" target="_blank">
+              <IconButton href="https://wa.me/+9710522269405" target="_blank">
                 <WhatsAppIcon
                   sx={{ color: "rgba(36, 126, 6, 0.73)", fontSize: "25px" }}
                 />

@@ -1,8 +1,7 @@
 import React from "react";
 import { Box, Container, Grid, Typography, IconButton, Stack } from "@mui/material";
 import FacebookIcon from "@mui/icons-material/Facebook";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import TwitterIcon from "@mui/icons-material/Twitter";
+
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 export default function Footer() {
@@ -63,7 +62,7 @@ export default function Footer() {
                 </IconButton>
                 <IconButton
                   color="inherit"
-                  href="https://www.facebook.com/share/1BnixpcYc3/?mibextid=wwXIfr"
+                  href="https://wa.me/+9710522269405"
                   target="_blank"
                 >
                   <WhatsAppIcon />

@@ -1,6 +1,6 @@
 {
   "name": "real-state",
-  "homepage": "https://haneen-khaled22.github.io/realstatereact/",
+  "homepage": "https://Haneen-Khaled22.github.io/Real_State_React/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist"
   },
   "dependencies": {
     "@fontsource/roboto": "^5.2.5",
@@ -22,7 +22,6 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-intersection-observer": "^9.16.0",
-    "react-router-dom": "^7.5.0",
     "styled-components": "^6.1.17"
   },
   "devDependencies": {

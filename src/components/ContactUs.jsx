@@ -66,7 +66,7 @@ export default function ContactUs() {
                 0522269405
               </Link>
             </Box>
-            <Box display="flex" alignItems="center" gap={2}>
+            {/* <Box display="flex" alignItems="center" gap={2}>
               <MailOutline sx={{ color: "rgba(2, 19, 26, 0.73)" }} />
               <Link
                 href="mailto:info@alkhaledproperty.com"
@@ -77,7 +77,7 @@ export default function ContactUs() {
               >
                 info@alkhaledproperty.com
               </Link>
-            </Box>
+            </Box> */}
             <Box display="flex" alignItems="center" gap={2}>
               <LocationOnIcon sx={{ color: "rgba(2, 19, 26, 0.73)" }} />
               <Link

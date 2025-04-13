@@ -6,17 +6,16 @@ import Toolbar from "@mui/material/Toolbar";
 
 import Container from "@mui/material/Container";
 
-import logo from "../images/logo (3).png";
+import logo from "../images/1-removebg-preview (2).png";
 
 
 
 function ResponsiveAppBar() {
- 
   return (
     <AppBar
       position="absolute"
       sx={{
-        height: "110px",
+        height: "200px",
         justifyContent: "center",
         backgroundColor: "transparent",
         boxShadow: "none",
@@ -25,35 +24,24 @@ function ResponsiveAppBar() {
     >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          {/* Mobile Menu Icon */}
-         
-         
+          {/* Spacer to push content to the right */}
+          <Box sx={{ flexGrow: 1 }} />
 
-          {/* Logo */}
+          {/* Logo on the right */}
           <img
             src={logo}
             alt="Logo"
             style={{
-              width: "200px",
-              height: "190px",
-              marginRight: "16px",
+              width: "220px",
+              height: "220px",
+              marginLeft: "16px",
             }}
           />
-
-          {/* Desktop Menu */}
-          <Box
-            sx={{
-              flexGrow: 1,
-              display: { xs: "none", md: "flex" },
-              gap: 2,
-            }}
-          >
-           
-          </Box>
         </Toolbar>
       </Container>
     </AppBar>
   );
 }
+
 
 export default ResponsiveAppBar;

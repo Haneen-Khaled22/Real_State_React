@@ -29,7 +29,7 @@ export default function Footer() {
               fontFamily="monospace"
               fontSize={{ xs: 22, sm: 26 }}
             >
-              AL KHALED PROPERTY
+             REAL ESTATE 90
             </Typography>
             <Typography
               variant="body2"
@@ -85,7 +85,7 @@ export default function Footer() {
             color="gray"
             fontSize={{ xs: 12, sm: 14 }}
           >
-            &copy; {new Date().getFullYear()} AL KHALED PROPERTY. All rights reserved.
+            &copy; {new Date().getFullYear()} Real Estate 90. All rights reserved.
           </Typography>
         </Box>
       </Container>
